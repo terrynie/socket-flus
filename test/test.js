@@ -38,9 +38,9 @@ describe('socket connect test by time', () => {
   it('should be ok', (done) => {
     let options = {
       url: 'http://localhost:9000/',
-      requestCount: 200000,
+      requestCount: 2000,
       connectCount: 10,
-      // duration: 5
+      duration: 10
     }
     let sf = new SocketFlus(options)
     sf.messageTest('trackPush', 'hello')

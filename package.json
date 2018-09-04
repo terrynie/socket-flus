@@ -1,17 +1,21 @@
 {
-  "name": "sockets-ls",
-  "version": "1.0.0",
+  "name": "socket-flus",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --timeout 10000 --exit test/test.js"
+    "test": "./node_modules/.bin/mocha --timeout 20000 --exit test/test.js"
   },
-  "author": "",
+  "author": "Terry Nie",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrynie/socket-flus"
   }
 }
