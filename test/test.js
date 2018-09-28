@@ -21,7 +21,7 @@ describe('socket connect test', () => {
   it('should be ok', (done) => {
     let options = {
       url: 'http://localhost:9000/',
-      connectCount: 100
+      connectCount: 1
     }
     let sf = new SocketFlus(options)
     sf.connTest()
@@ -39,7 +39,7 @@ describe('socket connect test by time', () => {
     let options = {
       url: 'http://localhost:9000/',
       requestCount: 2000,
-      connectCount: 10,
+      connectCount: 1,
       duration: 10
     }
     let sf = new SocketFlus(options)
