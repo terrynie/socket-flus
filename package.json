@@ -1,6 +1,6 @@
 {
   "name": "socket-flus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -9,10 +9,12 @@
   "author": "Terry Nie",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
   "repository": {
     "type": "git",
