@@ -1,13 +1,13 @@
 {
   "name": "socket-flus",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --timeout 20000 --exit test/test.js"
   },
   "author": "Terry Nie",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1"
